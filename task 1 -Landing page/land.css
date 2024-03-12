@@ -1,0 +1,97 @@
+header{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(207, 142, 19),rgb(223, 172, 62));
+    ul{
+        position: relative;
+        bottom: 30px;
+        left :70%;
+
+      }
+      li{
+        display: inline;
+        text-transform: capitalize;
+        padding: 10px 10px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      .a{
+        position: relative;
+        left: 10%;
+        bottom: 2px;
+      }
+}
+#f{
+    background-color: antiquewhite;
+    position: absolute;
+
+}
+#g{
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+.column{
+    float:left;
+    padding:5px;
+    width: 45%;
+}
+.row ::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+footer{
+    position: relative;
+    bottom: -530px;
+    height: 150px;
+    width:100%;
+    background:linear-gradient(to top,rgb(248, 192, 39),rgb(224, 171, 54));
+    #b{
+        position: relative;
+        left:70%;
+    }
+    article{
+        padding: 5px 5px;
+        border-right: 1px solid black;
+        position: relative;
+        bottom: 25px;
+        left:30px;
+    }
+}
+#c{
+    position: relative;
+    background-position: center;
+    background-image: url(office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    opacity: 50%;
+}
+.d{
+    position: absolute;
+    top: 200px;
+    left: 290px;
+    border-left: 2px solid red;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+
+}
+#e{
+    height: 200px;
+    width:100%;
+    background:linear-gradient(to top,orange,rgb(231, 208, 102));
+    li{
+        list-style-type: none;
+        padding: 10px 150px;
+    }
+     ul{
+        display: flex;
+     }
+}
